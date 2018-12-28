@@ -13,8 +13,11 @@ if (fs.existsSync(CACHE_FILE)) {
     options = { produceCachedData: true, displayErrors: true };
 }
 
+global.define = () => {};
+
 const now = Date.now();
 const script = new vm.Script(fs.readFileSync('workbench.main.js').toString('utf8'), options);
+script.runInThisContext(options);
 console.log((Date.now() - now) + "ms");
 
 if (script.cachedDataProduced) {
