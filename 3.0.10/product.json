@@ -661,13 +661,13 @@
 		"userProbability": 0.05
 	}],
 	"experimentsUrl": "https://az764295.vo.msecnd.net/experiments/vscode-experiments.json",
-	"commit": "e02e44464c02d617b98d0a3265bf5efef7794436",
-	"date": "2018-12-21T06:14:53.023Z",
+	"commit": "8e8b864b04a84f14ce4867a6a54ad21fecfe91d8",
+	"date": "2018-12-28T12:31:20.300Z",
 	"checksums": {
-		"vs/workbench/workbench.main.js": "G9aZzFA9xMaK6dWPkBv7Cg",
-		"vs/workbench/workbench.main.css": "Y2wA3Y8fxwFcR1iOZQnCCw",
+		"vs/workbench/workbench.main.js": "ew2qMPc877YyV3X4j1DkUg",
+		"vs/workbench/workbench.main.css": "gVzcuukzfVFm+CEvKExvsQ",
 		"vs/code/electron-browser/workbench/workbench.html": "DkQqxiBk527tJTiaVcbvJw",
-		"vs/code/electron-browser/workbench/workbench.js": "MrtopRzJQj+1jxeUgXhnEg"
+		"vs/code/electron-browser/workbench/workbench.js": "JZ/p+HKTmo3TmW2iXUa5ww"
 	},
-	"settingsSearchBuildId": 1310000439521
+	"settingsSearchBuildId": 1310000440611
 }

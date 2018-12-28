@@ -3,4 +3,4 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 "use strict";const loader=require("./vs/loader"),bootstrap=require("./bootstrap"),nlsConfig=bootstrap.setupNLS();loader.config({baseUrl:bootstrap.uriFromPath(__dirname),catchError:!0,nodeRequire:require,nodeMain:__filename,"vs/nls":nlsConfig}),(process.env.ELECTRON_RUN_AS_NODE||process.versions.electron)&&loader.define("fs",["original-fs"],function(o){return o}),nlsConfig.pseudo&&loader(["vs/nls"],function(o){o.setPseudoTranslation(nlsConfig.pseudo)}),exports.load=function(o,e,n){o&&(process.env.VSCODE_NODE_CACHED_DATA_DIR&&loader.config({nodeCachedData:{path:process.env.VSCODE_NODE_CACHED_DATA_DIR,seed:o}}),loader([o],e=e||function(){},n=n||function(o){console.error(o)}))};
-//# sourceMappingURL=https://ticino.blob.core.windows.net/sourcemaps/e02e44464c02d617b98d0a3265bf5efef7794436/core/bootstrap-amd.js.map
+//# sourceMappingURL=https://ticino.blob.core.windows.net/sourcemaps/8e8b864b04a84f14ce4867a6a54ad21fecfe91d8/core/bootstrap-amd.js.map
